@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History. VI AMO and the Vision-Intention Model (VIM).">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#ffffff">
+  <title>I See What You Want · VI AMO</title>
+  <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="static/css/site.css?v=20261107-task-captions">
+  <script src="static/js/site.js?v=20261107-task-slide" defer></script>
+  <link rel="stylesheet" href="static/css/gallery.css?v=20261108-starlight-2">
+  <script src="static/js/gallery.js?v=20261108-diverse-1" defer></script>
+  <link rel="stylesheet" href="static/css/diagrams.css?v=20261108-timeline-edge">
+  <script src="static/js/diagrams.js?v=20261108-interactive-1" defer></script>
+  <link rel="stylesheet" href="static/css/charts.css?v=20261107-clean-controls">
+  <script src="static/js/vendor/chart-4.5.1.umd.min.js" defer></script>
+  <script src="static/js/charts.js?v=20261109-solid-radar" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Page sections">
+      <a class="wordmark" href="#overview">VI <span>AMO</span></a>
+      <div class="nav-links"><a href="#explore">Explore</a><a href="#method">Dataset</a><a href="#results">Results</a><a href="#BibTeX">BibTeX</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="publication-header" id="overview" aria-labelledby="publication-title">
+      <div class="container">
+        <h1 id="publication-title"><span class="title-lead">I See What You Want:</span>Decoding Hierarchical Operator Intent<br class="desktop-break"> from Visual Teleoperation History</h1>
+        <div class="authors" aria-label="Authors"><span>Anonymous Authors</span></div>
+        <div class="affiliations"><span>Under Review</span></div>
+        <!-- Resource URLs are configured after private review hosting is connected. -->
+        <div class="publication-links" aria-label="Project resources"><button class="resource-button" type="button" disabled title="Coming soon" aria-label="arXiv, coming soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 3 14 18M7 3l12 15M5 19l5-6m4-4 5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>arXiv</span></button><button class="resource-button" data-review-resource="code" type="button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Code</span></button><button class="resource-button" data-review-resource="video" type="button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="5" fill="currentColor"/><path d="m10 8 6 4-6 4Z" fill="#363636"/></svg><span>Video</span></button><button class="resource-button" data-review-resource="data" type="button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h17v16H5zM2 7v15h17M7 16l5-5 3 3 3-4 2 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="10" cy="7" r="1.5" fill="currentColor"/></svg><span>Data</span></button></div>
+      </div>
+    </section>
+    <section class="teaser-section" aria-label="Demonstration films">
+      <div class="film-wall" id="explore" aria-label="Robot demonstrations and model predictions">
+        <div class="film-atmosphere" aria-hidden="true">
+          <svg class="film-stars" viewBox="0 0 1360 680" preserveAspectRatio="xMidYMid slice"></svg>
+        </div>
+        <div class="film-intro" aria-hidden="true">
+          <div class="film-intro-title">VI AMO</div>
+          <div class="film-intro-stats">
+            <div><strong>6,600</strong><span>episodes</span></div>
+            <div><strong>13,653</strong><span>actions</span></div>
+            <div><strong>9,702</strong><span>missions</span></div>
+          </div>
+        </div>
+        <div class="film-field">
+          <button class="film-tile film-frame" type="button" data-episode="diverse-01" aria-label="DROID: cover the teapot with the silver lid on the table" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-01.webp" data-src="static/gallery/diverse-01.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-02" aria-label="Bridge V2: put the knife on the cutting board" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-02.webp" data-src="static/gallery/diverse-02.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-03" aria-label="CMU Play Fusion: open the pot" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-03.webp" data-src="static/gallery/diverse-03.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-04" aria-label="FastUMI: put the pop can in the garbage bin" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-04.webp" data-src="static/gallery/diverse-04.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-05" aria-label="TACO Play: turn off the green light" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-05.webp" data-src="static/gallery/diverse-05.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-06" aria-label="Jaco Play: put the square bread on the table" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-06.webp" data-src="static/gallery/diverse-06.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-07" aria-label="RH20T: clean the tabletop with a sponge" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-07.webp" data-src="static/gallery/diverse-07.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-08" aria-label="Fractal / RT-1: put blue plastic bottle into white bowl" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-08.webp" data-src="static/gallery/diverse-08.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-09" aria-label="UT Austin MUTEX: pull the oven tray out" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-09.webp" data-src="static/gallery/diverse-09.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-10" aria-label="Berkeley FANUC: open the drawer" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-10.webp" data-src="static/gallery/diverse-10.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-11" aria-label="DROID: put the crumpled paper in the bin on the right" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-11.webp" data-src="static/gallery/diverse-11.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-12" aria-label="TACO Play: slide the purple block to the right" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-12.webp" data-src="static/gallery/diverse-12.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-13" aria-label="Jaco Play: put the milk dairy in the black bowl" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-13.webp" data-src="static/gallery/diverse-13.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-14" aria-label="Bridge V2: put the bowl in the small box" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-14.webp" data-src="static/gallery/diverse-14.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-15" aria-label="FastUMI: put the clothes in the washing machine" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-15.webp" data-src="static/gallery/diverse-15.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-16" aria-label="RH20T: wave the flag" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-16.webp" data-src="static/gallery/diverse-16.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-17" aria-label="Fractal / RT-1: put the orange can on the counter" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-17.webp" data-src="static/gallery/diverse-17.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-18" aria-label="UT Austin MUTEX: pick up the granola bar" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-18.webp" data-src="static/gallery/diverse-18.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-19" aria-label="CMU Play Fusion: open the pot" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-19.webp" data-src="static/gallery/diverse-19.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-20" aria-label="TACO Play: turn the yellow block left" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-20.webp" data-src="static/gallery/diverse-20.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-21" aria-label="Jaco Play: put the orange fruit on the white plate" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-21.webp" data-src="static/gallery/diverse-21.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-22" aria-label="Berkeley FANUC: put the battery in the open drawer" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-22.webp" data-src="static/gallery/diverse-22.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-23" aria-label="DROID: put the banana plush toy from the basket on the plate" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-23.webp" data-src="static/gallery/diverse-23.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-24" aria-label="Bridge V2: close the oven" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-24.webp" data-src="static/gallery/diverse-24.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-25" aria-label="Fractal / RT-1: put the blue plastic bottle on the counter" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-25.webp" data-src="static/gallery/diverse-25.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-26" aria-label="UT Austin MUTEX: put the toast on the white plate" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-26.webp" data-src="static/gallery/diverse-26.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-27" aria-label="TACO Play: put the pink object in the drawer" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-27.webp" data-src="static/gallery/diverse-27.mp4" aria-hidden="true"></video>
+          </button>
+          <button class="film-tile film-frame" type="button" data-episode="diverse-28" aria-label="Jaco Play: put the yellow cup on the table" aria-expanded="false" aria-controls="film-spotlight">
+            <video muted loop playsinline preload="none" poster="static/gallery/diverse-28.webp" data-src="static/gallery/diverse-28.mp4" aria-hidden="true"></video>
+          </button>
+        </div>
+        <div class="film-shade" aria-hidden="true"></div>
+        <div class="film-spotlight" id="film-spotlight" hidden></div>
+      </div>
+    </section>
+    <section class="section section-tinted" id="abstract" aria-labelledby="abstract-title">
+      <div class="container prose-container">
+        <h2 id="abstract-title">Abstract</h2>
+        <div class="abstract-text">
+          <p>Vision-language models (VLMs) have become a powerful foundation for robotic scene understanding, task planning, and language-conditioned control. A natural question follows: can these models also decode what a human operator intends while teleoperating a robot, without any explicit instruction? We formulate this as hierarchical intent prediction, jointly inferring the ongoing atomic action and the broader mission it serves from a short visual teleoperation history.</p>
+          <p>To study this, we introduce <strong>VI AMO</strong> (Vision Intention Action and Mission Ongoing), a dataset of 6,600 episodes from eleven robot sources with 13,653 temporally aligned action annotations and 9,702 mission annotations. We find that large proprietary models struggle with this problem: on test episodes, GPT-4o reaches 0.570 and 0.476 Sentence-BERT similarity for action and mission, and GPT-5.6 Luna 0.588 and 0.562. Fine-tuning a VLM on VI AMO yields our <strong>Vision-Intention Model (VIM)</strong>, which raises both to 0.824 and still reaches 0.736 and 0.741 on more than one third of test actions and missions whose labels never appear in training.</p>
+          <p>Finally, as a downstream application, VIM’s predicted mission lets a vision-language-action (VLA) policy take over from the operator mid-task in a real-world environment unseen in training, reducing human teleoperation time across five real-world tasks by 34.6% relative to GPT-4o and 39.8% relative to Luna, with the latency reduced by approximately 70% on average.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section section-tinted" id="method" aria-labelledby="method-title">
+      <div class="container">
+        <h2 id="method-title">VI AMO Dataset</h2>
+        <div class="dataset-stats" aria-label="VI AMO dataset statistics">
+          <div><strong>6,600</strong><span class="stat-label"><img class="stat-emoji" src="static/images/emoji/clapper-board.svg" width="22" height="22" alt="🎬" aria-hidden="true"> episodes</span></div>
+          <div><strong>11</strong><span class="stat-label"><img class="stat-emoji" src="static/images/emoji/robot.svg" width="22" height="22" alt="🤖" aria-hidden="true"> robot sources</span></div>
+          <div><strong>13,653</strong><span class="stat-label"><img class="stat-emoji" src="static/images/emoji/mechanical-arm.svg" width="22" height="22" alt="🦾" aria-hidden="true"> actions</span></div>
+          <div><strong>9,702</strong><span class="stat-label"><img class="stat-emoji" src="static/images/emoji/target.svg" width="22" height="22" alt="🎯" aria-hidden="true"> missions</span></div>
+        </div>
+        <article class="dataset-explorer" aria-labelledby="distribution-title">
+          <h3 id="distribution-title">Dataset composition</h3>
+          <div class="interactive-figure" data-chart-group="sources">
+            <div class="interactive-content" hidden></div>
+            <details class="source-fallback"><summary>View source counts</summary><div class="chart-table-scroll"><table><caption>VI AMO source composition</caption><thead><tr><th>Source</th><th>Episodes</th><th>Actions</th><th>Missions</th></tr></thead><tbody><tr><th scope="row">Bridge V2</th><td>3,091</td><td>4,950</td><td>3,445</td></tr><tr><th scope="row">DROID</th><td>2,041</td><td>6,372</td><td>4,452</td></tr><tr><th scope="row">Fractal / RT-1</th><td>579</td><td>656</td><td>579</td></tr><tr><th scope="row">TACO Play</th><td>403</td><td>403</td><td>403</td></tr><tr><th scope="row">CMU Play Fusion</th><td>224</td><td>725</td><td>448</td></tr><tr><th scope="row">RH20T</th><td>95</td><td>224</td><td>143</td></tr><tr><th scope="row">Jaco Play</th><td>68</td><td>68</td><td>68</td></tr><tr><th scope="row">UT Austin MUTEX</th><td>43</td><td>88</td><td>71</td></tr><tr><th scope="row">Berkeley FANUC</th><td>27</td><td>48</td><td>32</td></tr><tr><th scope="row">FastUMI</th><td>26</td><td>100</td><td>52</td></tr><tr><th scope="row">Stanford HYDRA</th><td>3</td><td>19</td><td>9</td></tr></tbody></table></div></details>
+          </div>
+        </article>
+        <div class="dataset-videos">
+          <div class="dataset-montage"><img id="dataset-montage" src="static/images/dataset-montage.gif" width="1040" height="440" alt="Animated montage of VI AMO demonstrations from eleven robot sources." loading="lazy"></div>
+          <p class="mission-caption"><strong>OM:</strong> Pour the juice into the cup and return the bottle to the coaster.</p>
+          <div class="action-clips" aria-label="Three ongoing actions within one mission">
+            <figure class="action-clip">
+              <div class="video-frame"><video id="oa1-video" controls muted loop playsinline preload="metadata" poster="static/images/oa1-poster.jpg" aria-label="OA1: Pick up the bottle"><source src="static/videos/oa1-pick-up-bottle.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/oa1-pick-up-bottle.mp4">Download OA1</a>.</video></div>
+              <figcaption><strong>OA1</strong> · Pick up the bottle</figcaption>
+            </figure>
+            <figure class="action-clip">
+              <div class="video-frame"><video id="oa2-video" controls muted loop playsinline preload="metadata" poster="static/images/oa2-poster.jpg" aria-label="OA2: Pour the juice into the cup"><source src="static/videos/oa2-pour-juice.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/oa2-pour-juice.mp4">Download OA2</a>.</video></div>
+              <figcaption><strong>OA2</strong> · Pour the juice into the cup</figcaption>
+            </figure>
+            <figure class="action-clip">
+              <div class="video-frame"><video id="oa3-video" controls muted loop playsinline preload="metadata" poster="static/images/oa3-poster.jpg" aria-label="OA3: Return the bottle to the coaster"><source src="static/videos/oa3-return-bottle.mp4" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/oa3-return-bottle.mp4">Download OA3</a>.</video></div>
+              <figcaption><strong>OA3</strong> · Return the bottle to the coaster</figcaption>
+            </figure>
+          </div>
+        </div>
+        <figure class="research-figure pipeline-figure">
+          <object class="pipeline-desktop" type="image/svg+xml" data="static/diagrams/pipeline.svg" aria-label="Annotation pipeline, VI AMO dataset, and VIM training">
+            <img src="static/images/method-overview.png" alt="Annotation pipeline, dataset, and VIM training." width="2600" height="1058" loading="lazy">
+          </object>
+          <div class="pipeline-mobile">
+            <object type="image/svg+xml" data="static/diagrams/pipeline.svg#annotation" aria-label="Annotation pipeline: decompose actions, group missions, segment videos, and human review"></object>
+            <object type="image/svg+xml" data="static/diagrams/pipeline.svg#dataset" aria-label="VI AMO dataset: kitchen, cleaning, appliance use, and tool use"></object>
+            <object type="image/svg+xml" data="static/diagrams/pipeline.svg#training" aria-label="VIM training from completed-action context and visual history"></object>
+          </div>
+          <figcaption><strong>Annotation, dataset, and training.</strong> Robot demonstrations are annotated with temporally aligned actions and missions. VIM combines visual history with completed-action context to generate the current action and its broader goal.</figcaption></figure>
+      </div>
+    </section>
+    <section class="section" id="results" aria-labelledby="results-title">
+      <div class="container">
+        <h2 id="results-title">Intent Prediction Results</h2>
+        <article class="result-block">
+          <h3>Prediction from partial observations</h3>
+          <p>Across nine observation cutoffs spanning 0–95% of an action, VIM achieves higher action and mission similarity than the six baselines under both SBERT and SigLIP. Additional visual history generally improves predictions.</p>
+          <div class="interactive-figure" data-chart-group="progress">
+            <div class="interactive-content" hidden></div>
+          <figure class="research-figure chart-fallback "><a class="figure-link" href="static/images/action-progress.png" data-lightbox aria-label="Enlarge figure: Four plots compare seven models across action progress: ongoing action and mission similarity measured with SBERT and SigLIP. VIM leads across the observation cutoffs."><img src="static/images/action-progress.png" width="2200" height="780" alt="Four plots compare seven models across action progress: ongoing action and mission similarity measured with SBERT and SigLIP. VIM leads across the observation cutoffs." loading="lazy"><span class="enlarge-label" aria-hidden="true">↗ Enlarge</span></a><figcaption><strong>Intent prediction across action progress.</strong> Curves show mean similarity on the VI AMO test set. All models use the same evaluation examples and observation cutoffs; higher is better.</figcaption></figure>
+          </div>
+        </article>
+        <article class="result-block">
+          <h3>Generalization to unseen labels</h3>
+          <p>On test actions for which both action and mission labels are absent from training, VIM reaches 0.736 action SBERT and 0.741 mission SBERT. This evaluation measures unseen label strings within the dataset’s source mixture.</p>
+          <div class="interactive-figure" data-chart-group="radar">
+            <div class="interactive-content" hidden></div>
+          <figure class="research-figure chart-fallback radar-figure"><a class="figure-link" href="static/images/seen-unseen.png" data-lightbox aria-label="Enlarge figure: Two radar plots compare seven models when both action and mission labels are seen during training and when both are unseen. VIM is the outer blue outline."><img src="static/images/seen-unseen.png" width="1800" height="749" alt="Two radar plots compare seven models when both action and mission labels are seen during training and when both are unseen. VIM is the outer blue outline." loading="lazy"><span class="enlarge-label" aria-hidden="true">↗ Enlarge</span></a><figcaption><strong>Seen versus unseen labels.</strong> Clockwise from the top: OA SBERT, OM SBERT, OA SigLIP, OM SigLIP, OA Top-10, and OM Top-10. The blue outline denotes VIM.</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section section-tinted" id="shared-autonomy" aria-labelledby="autonomy-title">
+      <div class="container">
+        <h2 id="autonomy-title">Downstream Applications: Shared Autonomy</h2>
+        <figure class="research-figure handoff-figure">
+          <div class="handoff-diagram" aria-label="Interactive human-to-robot handoffs">
+            <div class="handoff-legend"><span><i class="human-key" aria-hidden="true"></i>Human teleop</span><span><i aria-hidden="true"></i>VLA control</span><span class="time-direction">2× · time →</span></div>
+            <div class="handoff-top">
+              <div class="handoff-intro"><img src="static/diagrams/rollouts/teleop.webp" width="620" height="348" alt="A human operator starts the robot task through teleoperation." loading="lazy"><span>Human-to-robot handoff →</span></div>
+              <div class="handoff-player" data-rollout-player data-player-label="Put the egg in the egg tray">
+              <div class="rollout-screen"><video muted playsinline preload="none" poster="static/diagrams/rollouts/egg.webp" data-src="static/diagrams/rollouts/egg.mp4" data-rollout="egg" aria-label="Put the egg in the egg tray"></video></div>
+              <div class="rollout-controls">
+                <button class="rollout-toggle" type="button" aria-label="Play Put the egg in the egg tray"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3 16 10 5 17Z"/></svg></button>
+                <span class="rollout-mode" data-mode="human">Human teleop</span><span class="rollout-time"></span>
+              </div>
+              <div class="mode-timeline"><div class="mode-track" aria-hidden="true"></div><input type="range" min="0" max="1" step="0.05" value="0" aria-label="Put the egg in the egg tray: seek control timeline"><output class="mode-tooltip" hidden></output></div>
+              <p class="rollout-mission" style="--mission-color:#c1dbea">Put the egg in the egg tray</p>
+            </div><div class="handoff-player" data-rollout-player data-player-label="Sweep the trash into the dustpan">
+              <div class="rollout-screen"><video muted playsinline preload="none" poster="static/diagrams/rollouts/sweep.webp" data-src="static/diagrams/rollouts/sweep.mp4" data-rollout="sweep" aria-label="Sweep the trash into the dustpan"></video></div>
+              <div class="rollout-controls">
+                <button class="rollout-toggle" type="button" aria-label="Play Sweep the trash into the dustpan"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3 16 10 5 17Z"/></svg></button>
+                <span class="rollout-mode" data-mode="human">Human teleop</span><span class="rollout-time"></span>
+              </div>
+              <div class="mode-timeline"><div class="mode-track" aria-hidden="true"></div><input type="range" min="0" max="1" step="0.05" value="0" aria-label="Sweep the trash into the dustpan: seek control timeline"><output class="mode-tooltip" hidden></output></div>
+              <p class="rollout-mission" style="--mission-color:#bedfcd">Sweep the trash into the dustpan</p>
+            </div>
+            </div>
+            <div class="handoff-player sequence-player" data-rollout-player data-player-label="Cherry, apple, then banana">
+              <div class="sequence-screens"><div class="rollout-screen" data-step="01"><video muted playsinline preload="none" poster="static/diagrams/rollouts/cherry.webp" data-src="static/diagrams/rollouts/cherry.mp4" data-rollout="cherry" aria-label="Put the cherry on the plate"></video></div>
+<div class="rollout-screen" data-step="02"><video muted playsinline preload="none" poster="static/diagrams/rollouts/apple.webp" data-src="static/diagrams/rollouts/apple.mp4" data-rollout="apple" aria-label="Put the apple on the plate"></video></div>
+<div class="rollout-screen" data-step="03"><video muted playsinline preload="none" poster="static/diagrams/rollouts/banana.webp" data-src="static/diagrams/rollouts/banana.mp4" data-rollout="banana" aria-label="Put the banana on the plate"></video></div></div>
+              <div class="rollout-controls">
+                <button class="rollout-toggle" type="button" aria-label="Play Cherry, apple, then banana"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3 16 10 5 17Z"/></svg></button>
+                <span class="rollout-mode" data-mode="human">Human teleop</span><span class="rollout-time"></span>
+              </div>
+              <div class="mode-timeline"><div class="mode-track" aria-hidden="true"></div><input type="range" min="0" max="1" step="0.05" value="0" aria-label="Cherry, apple, then banana: seek control timeline"><output class="mode-tooltip" hidden></output></div>
+              <div class="sequence-missions"><button type="button" class="rollout-mission" data-mission-index="0" style="--mission-color:#e8bbb4"><span class="mission-number">01</span>Put the cherry on the plate</button>
+<button type="button" class="rollout-mission" data-mission-index="1" style="--mission-color:#cdbfde"><span class="mission-number">02</span>Put the apple on the plate</button>
+<button type="button" class="rollout-mission" data-mission-index="2" style="--mission-color:#eddd8a"><span class="mission-number">03</span>Put the banana on the plate</button></div>
+            </div>
+          </div>
+          <img class="handoff-static" src="static/images/control-handoffs.png" width="2600" height="794" alt="Yellow segments indicate human teleoperation; blue indicates VLA control. The fruit tasks proceed from cherry to apple to banana." loading="lazy" hidden>
+          <noscript><style>.handoff-diagram { display:none }</style><img src="static/images/control-handoffs.png" width="2600" height="794" alt="Human-to-robot handoffs: egg, sweeping, and cherry, apple, banana tasks."></noscript>
+          <figcaption><strong>Human-to-robot handoffs.</strong> Mission predictions guide continued execution in egg placement, trash sweeping, and multi-mission fruit placement, with mode bars distinguishing human teleoperation from VLA control. The operator initiates a task, confirms the inferred mission, and then hands control to a language-conditioned VLA policy.</figcaption></figure>
+        <article class="autonomy-tasks" id="tasks" aria-labelledby="tasks-title">
+          <h3 id="tasks-title">Tasks</h3>
+          <div class="task-carousel" data-task-carousel role="region" aria-roledescription="carousel" aria-label="Shared autonomy tasks">
+            <div class="task-videos" id="task-slides">
+              <figure class="task-video" id="task-slide-apple" role="group" aria-roledescription="slide" aria-label="1 of 5" data-task-name="Put the apple in the bowl">
+                <div class="video-frame"><video id="task-apple" controls playsinline preload="metadata" poster="static/images/tasks/apple.jpg?v=glove-arrow-1" aria-describedby="task-apple-caption" aria-label="Shared autonomy task: put the apple in the bowl"><source src="static/videos/tasks/apple.mp4?v=glove-arrow-1" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/tasks/apple.mp4?v=glove-arrow-1">Download the apple task video</a>.</video></div>
+                <figcaption id="task-apple-caption">Put the apple in the bowl</figcaption>
+              </figure>
+              <figure class="task-video" id="task-slide-banana" role="group" aria-roledescription="slide" aria-label="2 of 5" data-task-name="Put the banana in the bowl" hidden>
+                <div class="video-frame"><video id="task-banana" controls playsinline preload="metadata" poster="static/images/tasks/banana.jpg?v=glove-arrow-1" aria-describedby="task-banana-caption" aria-label="Shared autonomy task: put the banana in the bowl"><source src="static/videos/tasks/banana.mp4?v=glove-arrow-1" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/tasks/banana.mp4?v=glove-arrow-1">Download the banana task video</a>.</video></div>
+                <figcaption id="task-banana-caption">Put the banana in the bowl</figcaption>
+              </figure>
+              <figure class="task-video" id="task-slide-egg" role="group" aria-roledescription="slide" aria-label="3 of 5" data-task-name="Put the egg in the egg tray" hidden>
+                <div class="video-frame"><video id="task-egg" controls playsinline preload="metadata" poster="static/images/tasks/egg.jpg?v=glove-arrow-1" aria-describedby="task-egg-caption" aria-label="Shared autonomy task: put the egg in the egg tray"><source src="static/videos/tasks/egg.mp4?v=glove-arrow-1" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/tasks/egg.mp4?v=glove-arrow-1">Download the egg task video</a>.</video></div>
+                <figcaption id="task-egg-caption">Put the egg in the egg tray</figcaption>
+              </figure>
+              <figure class="task-video" id="task-slide-sweep" role="group" aria-roledescription="slide" aria-label="4 of 5" data-task-name="Sweep the trash into dustpan" hidden>
+                <div class="video-frame"><video id="task-sweep" controls playsinline preload="metadata" poster="static/images/tasks/sweep.jpg?v=glove-arrow-1" aria-describedby="task-sweep-caption" aria-label="Shared autonomy task: sweep the trash into dustpan"><source src="static/videos/tasks/sweep.mp4?v=glove-arrow-1" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/tasks/sweep.mp4?v=glove-arrow-1">Download the sweeping task video</a>.</video></div>
+                <figcaption id="task-sweep-caption">Sweep the trash into dustpan</figcaption>
+              </figure>
+              <figure class="task-video task-video-sequence" id="task-slide-fruit-sequence" role="group" aria-roledescription="slide" aria-label="5 of 5" data-task-name="Long-horizon task" hidden>
+                <div class="video-frame"><video id="task-fruit-sequence" controls playsinline preload="metadata" poster="static/images/tasks/fruit-sequence.jpg?v=first-frame" aria-describedby="task-fruit-caption" aria-label="Shared autonomy demonstration with five consecutive fruit-placement missions"><source src="static/videos/tasks/fruit-sequence.mp4?v=silent-1" type="video/mp4">Your browser does not support embedded video. <a href="static/videos/tasks/fruit-sequence.mp4?v=silent-1">Download the consecutive-mission video</a>.</video></div>
+                <figcaption id="task-fruit-caption">
+                  <div class="task-sequence-title">Long-horizon task</div>
+                  <strong>Missions in order</strong>
+                  <ol class="task-missions">
+                    <li>Put the cherry bunch on the white plate</li>
+                    <li>Put the pineapple on the white plate</li>
+                    <li>Put the banana on the plate</li>
+                    <li>Put the apple on the plate</li>
+                    <li>Put the bunch of grapes on the plate</li>
+                  </ol>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="task-carousel-controls">
+              <button class="task-carousel-arrow task-carousel-prev" type="button" aria-label="Previous task" aria-controls="task-slides"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 6 12l9 8Z"/></svg></button>
+              <button class="task-carousel-arrow task-carousel-next" type="button" aria-label="Next task" aria-controls="task-slides"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 9 8-9 8Z"/></svg></button>
+            </div>
+            <div class="task-carousel-dots" role="group" aria-label="Choose a task">
+              <button class="task-dot" type="button" aria-label="Show task 1: Put the apple in the bowl" aria-controls="task-slide-apple" aria-current="true"></button>
+              <button class="task-dot" type="button" aria-label="Show task 2: Put the banana in the bowl" aria-controls="task-slide-banana" aria-current="false"></button>
+              <button class="task-dot" type="button" aria-label="Show task 3: Put the egg in the egg tray" aria-controls="task-slide-egg" aria-current="false"></button>
+              <button class="task-dot" type="button" aria-label="Show task 4: Sweep the trash into dustpan" aria-controls="task-slide-sweep" aria-current="false"></button>
+              <button class="task-dot" type="button" aria-label="Show task 5: Long-horizon task" aria-controls="task-slide-fruit-sequence" aria-current="false"></button>
+            </div>
+            <p class="task-carousel-status" aria-live="polite" aria-atomic="true">Task 1 of 5: Put the apple in the bowl</p>
+          </div>
+        </article>
+        <article class="real-world-results" aria-labelledby="quantitative-title">
+          <h3 id="quantitative-title">Real-world task quantitative results</h3>
+          <div class="result-copy">
+            <p>Across five real-world tasks, VIM reduces mean human teleoperation time by <strong>34.6%</strong> relative to GPT-4o and <strong>39.8%</strong> relative to GPT-5.6 Luna.</p>
+            <p>Mean VIM inference latency ranges from <strong>0.70 to 0.81 seconds</strong> across tasks. The plots report mean ± standard deviation.</p>
+          </div>
+          <div class="interactive-figure" data-chart-group="realworld">
+            <div class="interactive-content" hidden></div>
+          <figure class="research-figure chart-fallback quantitative-figure"><a class="figure-link" href="static/images/real-world-results.png" data-lightbox aria-label="Enlarge figure: Bar charts compare human teleoperation time and VLM latency across apple, banana, egg, sweeping, and long-horizon tasks for VIM and baseline methods."><img src="static/images/real-world-results.png" width="1400" height="1058" alt="Bar charts compare human teleoperation time and VLM latency across apple, banana, egg, sweeping, and long-horizon tasks for VIM and baseline methods." loading="lazy"><span class="enlarge-label" aria-hidden="true">↗ Enlarge</span></a><figcaption><strong>Real-world quantitative results.</strong> Human teleoperation time (top) and inference latency (bottom).</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section bibtex-section" id="BibTeX" aria-labelledby="bibtex-title">
+      <div class="container prose-container"><h2 id="bibtex-title">BibTeX</h2><pre class="bibtex-placeholder" aria-label="BibTeX placeholder"><code><!-- Add the verified BibTeX entry here when available. --></code></pre></div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Website layout inspired by <a href="https://nerfies.github.io/" target="_blank" rel="noopener noreferrer">Nerfies</a> and <a href="https://research.nvidia.com/labs/gear/flora/" target="_blank" rel="noopener noreferrer">FLORA</a>.</p></footer>
+  <dialog class="figure-dialog" aria-labelledby="dialog-caption"><button class="dialog-close" type="button" aria-label="Close enlarged figure">×</button><div class="dialog-scroll"><img alt=""></div><p id="dialog-caption"></p></dialog>
+</body>
+</html>
